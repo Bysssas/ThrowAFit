@@ -5,6 +5,7 @@ import connectDB from "./config/db.js";
 import itemRoutes from "./routes/itemRoutes.js";
 
 dotenv.config();
+console.log("MONGO_URI:", process.env.MONGO_URI);
 connectDB();
 
 const app = express();
