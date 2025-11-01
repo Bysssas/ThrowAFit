@@ -7,7 +7,7 @@ router.get("/", getItems);
 router.post("/", createItem);
 
 // Base route
-router.get("/", (req, res) => {
+router.get("/categories", (req, res) => {
   res.send("This is the Throw-A-Fit Classifier API");
 });
 
